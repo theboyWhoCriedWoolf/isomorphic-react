@@ -1,0 +1,16 @@
+body {
+  transform: translateX(10px); }
+
+[data-view='about'] {
+  color: orange;
+  background-color: blue;
+  transform: translateX(10px); }
+
+[data-view='contact'] {
+  color: orange;
+  background-color: blue; }
+
+[data-view='home'] {
+  color: green;
+  font-size: 30px;
+  background-color: orange; }
