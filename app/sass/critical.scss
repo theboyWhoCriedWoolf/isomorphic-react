@@ -1,0 +1,38 @@
+/* normalize */
+@import "../../node_modules/material-ui-sass/material-ui";
+
+/* variables - seperate to modularise */
+@import 'variables/fonts';
+
+/* mixins */
+@import 'mixins/font-face';
+
+/* partials */
+@import 'partials/fonts';
+
+
+.container {
+	background-color : #00bcd4;
+	width: 100%;
+  	height: 100%;
+    text-align: center;
+}
+
+.welcome-box {
+	padding : 20px;
+	max-width : 400px;
+	margin : 0 auto;
+	top : 50%;
+	transform : translateY(-50%);
+	position : relative;
+}
+
+h1 {
+	font-size: 56px;
+}
+
+h2 {
+	font-size: 24px;
+	line-height : 32px;
+}
+
