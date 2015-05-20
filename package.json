@@ -24,6 +24,18 @@
     "proxy-middleware": "^0.11.1",
     "ua-parser-js": "^0.7.7"
   },
+  "keywords": [
+    "React",
+    "webpack",
+    "webpack-isomorphic",
+    "serverside-react",
+    "react-hot",
+    "react-hot-loader"
+  ],
+  "tags": [
+    "React",
+    "serverside"
+  ],
   "staticPlugin": "statics-stylesheets",
   "devDependencies": {
     "babel": "^5.4.3",
